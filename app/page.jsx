@@ -433,12 +433,12 @@ export default function Home() {
               <span className="dot" /> IA pra WhatsApp · feita à mão pro seu negócio
             </span>
             <h1>
-              O atendente <em>que seus clientes</em> querem conversar.
+              Seu WhatsApp <em>vendendo no automático</em>, com toque humano.
             </h1>
             <p className="lede">
-              Resolva mais conversas com uma IA que aprende sobre o seu negócio,
-              qualifica o lead e passa pro humano quando o fechamento precisa de
-              toque pessoal.
+              Atendente digital com IA que conhece o seu negócio, responde em
+              segundos, qualifica o lead e chama o time só na hora de fechar a
+              venda.
             </p>
             <div className="hero-actions">
               <a className="primary-btn" href={whatsappUrl} target="_blank" rel="noreferrer">
