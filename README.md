@@ -2,6 +2,8 @@
 
 Landing page de um serviço meu: atendente com IA no WhatsApp para pequenos negócios que vendem, agendam ou fazem orçamento pelo celular. A página precisa convencer o dono do negócio em poucos segundos e levar a conversa para o WhatsApp.
 
+**[Abrir o site](https://kenzokishi.github.io/atende-ai-site/)**
+
 <img src="docs/desktop.jpg" alt="Primeira dobra da landing page do Atende AI no desktop" width="100%">
 
 <p align="center"><img src="docs/mobile.jpg" alt="Landing page do Atende AI no celular" width="300"></p>
@@ -22,9 +24,13 @@ Next.js 14 (App Router), React 18 e CSS puro, sem biblioteca de UI.
 ```bash
 npm install
 npm run dev     # http://localhost:3000
-npm run build   # gera a versão estática
+npm run build   # gera a versão estática na pasta out/
 ```
 
-## Deploy
+## Publicação
 
-Pronto para a Vercel: importe o repositório ou rode `npx vercel --prod`.
+O site é exportado como estático (`output: 'export'`) e publicado no GitHub Pages pela branch `gh-pages`. Para gerar a versão com o caminho do Pages:
+
+```bash
+BASE_PATH=/atende-ai-site npm run build
+```

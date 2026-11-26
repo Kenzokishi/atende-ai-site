@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
+const basePath = process.env.BASE_PATH || '';
+
 const nextConfig = {
-  output: 'standalone',
+  output: 'export',
+  basePath,
   images: {
     unoptimized: true
   }

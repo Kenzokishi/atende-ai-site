@@ -4,7 +4,7 @@ export const metadata = {
   title: 'Atende AI — Atendimento inteligente no WhatsApp',
   description:
     'Atendente digital com IA para WhatsApp: respostas rápidas, captação de leads qualificados e repasse pronto para o seu time. Para clínicas, salões, lojas e serviços.',
-  metadataBase: new URL('https://atende-ai-site-vercel.vercel.app'),
+  metadataBase: new URL('https://kenzokishi.github.io/atende-ai-site/'),
   openGraph: {
     title: 'Atende AI — Atendimento inteligente no WhatsApp',
     description:
